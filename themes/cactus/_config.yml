@@ -147,14 +147,30 @@ open_graph:
 # Plugins
 ##############################################################################
 
-# mathjax:        LaTeX 数学公式渲染，不需要
-# disqus:         Disqus 评论系统，国内被墙
-# utterances:     GitHub Issues 评论系统
-# google_analytics: Google 统计，国内被墙
-# baidu_analytics:  百度统计
-# cloudflare_analytics: Cloudflare 统计
-# umami_analytics: 自建统计
-# gravatar:       全球头像服务
+# 以下插件均未启用，但模板中会读取 enabled 字段，不能删除配置项
+
+mathjax:
+  enabled: false
+
+disqus:
+  enabled: false
+
+utterances:
+  enabled: false
+
+google_analytics:
+  enabled: false
+
+baidu_analytics:
+  enabled: false
+
+cloudflare_analytics:
+  enabled: false
+
+umami_analytics:
+  enabled: false
+
+gravatar:
 
 cdn:
   enable: true
